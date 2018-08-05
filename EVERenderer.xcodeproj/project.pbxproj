@@ -8,20 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		D019154A210A1A2A00CF7044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0191549210A1A2A00CF7044 /* AppDelegate.m */; };
-		D019154D210A1A2A00CF7044 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = D019154C210A1A2A00CF7044 /* Renderer.m */; };
 		D0191550210A1A2A00CF7044 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D019154F210A1A2A00CF7044 /* GameViewController.m */; };
 		D0191552210A1A2A00CF7044 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D0191551210A1A2A00CF7044 /* Shaders.metal */; };
 		D0191555210A1A2B00CF7044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0191554210A1A2B00CF7044 /* Assets.xcassets */; };
 		D0191558210A1A2B00CF7044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0191556210A1A2B00CF7044 /* Main.storyboard */; };
 		D019155B210A1A2B00CF7044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D019155A210A1A2B00CF7044 /* main.m */; };
+		D0191565210A1B9700CF7044 /* CSContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D0191564210A1B9700CF7044 /* CSContext.m */; };
+		D0191568210A1E7600CF7044 /* CSViewport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0191567210A1E7600CF7044 /* CSViewport.m */; };
+		D0370ADE210A925C005B86CA /* CSSpaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D0370ADD210A925C005B86CA /* CSSpaceScene.m */; };
+		D037738F21123C990093CC95 /* CSResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D037738E21123C990093CC95 /* CSResourceManager.m */; };
+		D05B14FB211250920010C745 /* resfileindex.txt in Resources */ = {isa = PBXBuildFile; fileRef = D05B14FA211250920010C745 /* resfileindex.txt */; };
+		D08B7F042115BC4D00528433 /* CSEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7F032115BC4D00528433 /* CSEffect.m */; };
+		D08B7F0A2115C0BA00528433 /* CSTextureParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7F092115C0BA00528433 /* CSTextureParameter.m */; };
+		D08B7F0D2115C54A00528433 /* CSTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7F0C2115C54A00528433 /* CSTransform.m */; };
+		D08B7F102115CF5900528433 /* CSStaticEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7F0F2115CF5900528433 /* CSStaticEmitter.m */; };
+		D08B7F132115D8DC00528433 /* CSParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7F122115D8DC00528433 /* CSParticleSystem.m */; };
+		D08B7F162115DA1500528433 /* CSParticleElementDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7F152115DA1500528433 /* CSParticleElementDeclaration.m */; };
+		D08B7F192115F0EC00528433 /* CSInstancedMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B7F182115F0EC00528433 /* CSInstancedMesh.m */; };
+		D0BF560A21127AF5007E192E /* res.1097993.json in Resources */ = {isa = PBXBuildFile; fileRef = D0BF560921127AF5007E192E /* res.1097993.json */; };
+		D0E5D60121131C1B00E09683 /* CSRedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D60021131C1B00E09683 /* CSRedReader.m */; };
+		D0E5D6072113369300E09683 /* CSBlackReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D6062113369300E09683 /* CSBlackReader.m */; };
+		D0E5D60A211371F500E09683 /* CSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5D609211371F500E09683 /* CSObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0191545210A1A2A00CF7044 /* EVERenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVERenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0191548210A1A2A00CF7044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0191549210A1A2A00CF7044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D019154B210A1A2A00CF7044 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
-		D019154C210A1A2A00CF7044 /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
 		D019154E210A1A2A00CF7044 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		D019154F210A1A2A00CF7044 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		D0191551210A1A2A00CF7044 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
@@ -31,6 +44,37 @@
 		D0191559210A1A2B00CF7044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D019155A210A1A2B00CF7044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D019155C210A1A2B00CF7044 /* EVERenderer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EVERenderer.entitlements; sourceTree = "<group>"; };
+		D0191563210A1B9700CF7044 /* CSContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSContext.h; sourceTree = "<group>"; };
+		D0191564210A1B9700CF7044 /* CSContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSContext.m; sourceTree = "<group>"; };
+		D0191566210A1E7600CF7044 /* CSViewport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSViewport.h; sourceTree = "<group>"; };
+		D0191567210A1E7600CF7044 /* CSViewport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewport.m; sourceTree = "<group>"; };
+		D019156C210A3E3E00CF7044 /* CSMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSMatrix.h; sourceTree = "<group>"; };
+		D0370ADC210A925C005B86CA /* CSSpaceScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSSpaceScene.h; sourceTree = "<group>"; };
+		D0370ADD210A925C005B86CA /* CSSpaceScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSSpaceScene.m; sourceTree = "<group>"; };
+		D037738D21123C990093CC95 /* CSResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSResourceManager.h; sourceTree = "<group>"; };
+		D037738E21123C990093CC95 /* CSResourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSResourceManager.m; sourceTree = "<group>"; };
+		D05B14FA211250920010C745 /* resfileindex.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resfileindex.txt; sourceTree = "<group>"; };
+		D08B7F022115BC4D00528433 /* CSEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSEffect.h; sourceTree = "<group>"; };
+		D08B7F032115BC4D00528433 /* CSEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSEffect.m; sourceTree = "<group>"; };
+		D08B7F082115C0BA00528433 /* CSTextureParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSTextureParameter.h; sourceTree = "<group>"; };
+		D08B7F092115C0BA00528433 /* CSTextureParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTextureParameter.m; sourceTree = "<group>"; };
+		D08B7F0B2115C54A00528433 /* CSTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSTransform.h; sourceTree = "<group>"; };
+		D08B7F0C2115C54A00528433 /* CSTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTransform.m; sourceTree = "<group>"; };
+		D08B7F0E2115CF5900528433 /* CSStaticEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSStaticEmitter.h; sourceTree = "<group>"; };
+		D08B7F0F2115CF5900528433 /* CSStaticEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSStaticEmitter.m; sourceTree = "<group>"; };
+		D08B7F112115D8DC00528433 /* CSParticleSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSParticleSystem.h; sourceTree = "<group>"; };
+		D08B7F122115D8DC00528433 /* CSParticleSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSParticleSystem.m; sourceTree = "<group>"; };
+		D08B7F142115DA1500528433 /* CSParticleElementDeclaration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSParticleElementDeclaration.h; sourceTree = "<group>"; };
+		D08B7F152115DA1500528433 /* CSParticleElementDeclaration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSParticleElementDeclaration.m; sourceTree = "<group>"; };
+		D08B7F172115F0EC00528433 /* CSInstancedMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSInstancedMesh.h; sourceTree = "<group>"; };
+		D08B7F182115F0EC00528433 /* CSInstancedMesh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSInstancedMesh.m; sourceTree = "<group>"; };
+		D0BF560921127AF5007E192E /* res.1097993.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = res.1097993.json; sourceTree = "<group>"; };
+		D0E5D5FF21131C1B00E09683 /* CSRedReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRedReader.h; sourceTree = "<group>"; };
+		D0E5D60021131C1B00E09683 /* CSRedReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRedReader.m; sourceTree = "<group>"; };
+		D0E5D6052113369300E09683 /* CSBlackReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSBlackReader.h; sourceTree = "<group>"; };
+		D0E5D6062113369300E09683 /* CSBlackReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSBlackReader.m; sourceTree = "<group>"; };
+		D0E5D608211371F500E09683 /* CSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSObject.h; sourceTree = "<group>"; };
+		D0E5D609211371F500E09683 /* CSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +107,13 @@
 		D0191547210A1A2A00CF7044 /* EVERenderer */ = {
 			isa = PBXGroup;
 			children = (
+				D0E5D5FE21131C0C00E09683 /* Reader */,
+				D0BF560921127AF5007E192E /* res.1097993.json */,
+				D05B14FA211250920010C745 /* resfileindex.txt */,
+				D0370ADB210A9248005B86CA /* EVE */,
+				D0191562210A1B6E00CF7044 /* Core */,
 				D0191548210A1A2A00CF7044 /* AppDelegate.h */,
 				D0191549210A1A2A00CF7044 /* AppDelegate.m */,
-				D019154B210A1A2A00CF7044 /* Renderer.h */,
-				D019154C210A1A2A00CF7044 /* Renderer.m */,
 				D019154E210A1A2A00CF7044 /* GameViewController.h */,
 				D019154F210A1A2A00CF7044 /* GameViewController.m */,
 				D0191551210A1A2A00CF7044 /* Shaders.metal */,
@@ -78,6 +125,56 @@
 				D019155C210A1A2B00CF7044 /* EVERenderer.entitlements */,
 			);
 			path = EVERenderer;
+			sourceTree = "<group>";
+		};
+		D0191562210A1B6E00CF7044 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D019156C210A3E3E00CF7044 /* CSMatrix.h */,
+				D0191563210A1B9700CF7044 /* CSContext.h */,
+				D0191564210A1B9700CF7044 /* CSContext.m */,
+				D0191566210A1E7600CF7044 /* CSViewport.h */,
+				D0191567210A1E7600CF7044 /* CSViewport.m */,
+				D037738D21123C990093CC95 /* CSResourceManager.h */,
+				D037738E21123C990093CC95 /* CSResourceManager.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D0370ADB210A9248005B86CA /* EVE */ = {
+			isa = PBXGroup;
+			children = (
+				D0370ADC210A925C005B86CA /* CSSpaceScene.h */,
+				D0370ADD210A925C005B86CA /* CSSpaceScene.m */,
+				D0E5D608211371F500E09683 /* CSObject.h */,
+				D0E5D609211371F500E09683 /* CSObject.m */,
+				D08B7F022115BC4D00528433 /* CSEffect.h */,
+				D08B7F032115BC4D00528433 /* CSEffect.m */,
+				D08B7F082115C0BA00528433 /* CSTextureParameter.h */,
+				D08B7F092115C0BA00528433 /* CSTextureParameter.m */,
+				D08B7F0B2115C54A00528433 /* CSTransform.h */,
+				D08B7F0C2115C54A00528433 /* CSTransform.m */,
+				D08B7F0E2115CF5900528433 /* CSStaticEmitter.h */,
+				D08B7F0F2115CF5900528433 /* CSStaticEmitter.m */,
+				D08B7F112115D8DC00528433 /* CSParticleSystem.h */,
+				D08B7F122115D8DC00528433 /* CSParticleSystem.m */,
+				D08B7F142115DA1500528433 /* CSParticleElementDeclaration.h */,
+				D08B7F152115DA1500528433 /* CSParticleElementDeclaration.m */,
+				D08B7F172115F0EC00528433 /* CSInstancedMesh.h */,
+				D08B7F182115F0EC00528433 /* CSInstancedMesh.m */,
+			);
+			path = EVE;
+			sourceTree = "<group>";
+		};
+		D0E5D5FE21131C0C00E09683 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5D5FF21131C1B00E09683 /* CSRedReader.h */,
+				D0E5D60021131C1B00E09683 /* CSRedReader.m */,
+				D0E5D6052113369300E09683 /* CSBlackReader.h */,
+				D0E5D6062113369300E09683 /* CSBlackReader.m */,
+			);
+			path = Reader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +208,11 @@
 				TargetAttributes = {
 					D0191544210A1A2A00CF7044 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0191555210A1A2B00CF7044 /* Assets.xcassets in Resources */,
+				D05B14FB211250920010C745 /* resfileindex.txt in Resources */,
+				D0BF560A21127AF5007E192E /* res.1097993.json in Resources */,
 				D0191558210A1A2B00CF7044 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,11 +253,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08B7F192115F0EC00528433 /* CSInstancedMesh.m in Sources */,
 				D019155B210A1A2B00CF7044 /* main.m in Sources */,
 				D0191552210A1A2A00CF7044 /* Shaders.metal in Sources */,
-				D019154D210A1A2A00CF7044 /* Renderer.m in Sources */,
+				D08B7F0D2115C54A00528433 /* CSTransform.m in Sources */,
+				D0E5D60A211371F500E09683 /* CSObject.m in Sources */,
+				D0191568210A1E7600CF7044 /* CSViewport.m in Sources */,
+				D08B7F042115BC4D00528433 /* CSEffect.m in Sources */,
+				D08B7F102115CF5900528433 /* CSStaticEmitter.m in Sources */,
+				D0370ADE210A925C005B86CA /* CSSpaceScene.m in Sources */,
+				D0E5D6072113369300E09683 /* CSBlackReader.m in Sources */,
+				D0191565210A1B9700CF7044 /* CSContext.m in Sources */,
 				D0191550210A1A2A00CF7044 /* GameViewController.m in Sources */,
+				D08B7F0A2115C0BA00528433 /* CSTextureParameter.m in Sources */,
+				D08B7F162115DA1500528433 /* CSParticleElementDeclaration.m in Sources */,
+				D08B7F132115D8DC00528433 /* CSParticleSystem.m in Sources */,
+				D0E5D60121131C1B00E09683 /* CSRedReader.m in Sources */,
 				D019154A210A1A2A00CF7044 /* AppDelegate.m in Sources */,
+				D037738F21123C990093CC95 /* CSResourceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

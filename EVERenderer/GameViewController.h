@@ -9,9 +9,10 @@
 #import <Cocoa/Cocoa.h>
 #import <Metal/Metal.h>
 #import <MetalKit/MetalKit.h>
-#import "Renderer.h"
+
+#import "CSViewport.h"
 
 // Our macOS view controller.
-@interface GameViewController : NSViewController
+@interface GameViewController : NSViewController <CSViewportDelegate>
 
 @end
